@@ -137,4 +137,4 @@ def get_total_pelanggaran():
     return {"total_pelanggaran": total_pelanggaran}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.1.0.0", port=8000)
+    uvicorn.run(app, host="localhost", port=8000)
